@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Teko:wght@300..700&display=swap');
+*{
+ margin: 0px;
+ box-sizing: border-box;
+}
+.header{
+ height: 100vh;
+ width: 100vw;
+ background-image: url("3d.png");
+ background-size: cover;
+ color: rgb(23, 213, 146);
+ text-align: center;
+ padding-top: 40vh;
+ text-shadow: 4px 3px 0px #676767, 10px 10px 6px #5d5d5d;
+ font-size: 30px;;
+}
+.menu{
+ width:100vw;
+ background-color: rgb(123, 123, 123);
+ font-family: Arial;
+ color:white;
+}
+.picture{
+ border-radius: 100%;
+ width:100px;
+ height:100px;
+ overflow:hidden;
+ margin: 0 auto;
+}
+img{
+ height:100%;
+}
+.item{
+ width:80%;
+ margin: 0px auto;
+ text-align: center;
+ padding-top:20px;
+ border-bottom: #7A7A7A 1px solid;
+ padding-bottom: 10px;
+}
+h3{
+ font-weight: 1000;
+}
+p{
+ font-weight: 100;
+}
+.info{
+ padding:20px;
+}
